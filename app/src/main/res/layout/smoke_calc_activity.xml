@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:text="Выберите переменную, которую необходимо найти:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textColor="@color/colorTittle"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem" />
+
+    <Button
+        android:id="@+id/btnTimeExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:text="Т выхода"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:drawablePadding="10dp" />
+    <Button
+        android:id="@+id/btnTimeJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:text="Т работы"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:drawablePadding="10dp" />
+    <Button
+        android:id="@+id/btnPressureExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:text="Р выхода"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:drawablePadding="10dp" />
+</LinearLayout>
